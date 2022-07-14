@@ -1,7 +1,3 @@
-# aws-cloud-practitioner
-AWS Certification Private Repo
--------------------------------
-
 AWS Partner: Accreditation (Technical)
 
 The AWS Partner: Accreditation (Technical) training provides AWS Partner Network (APN) Partners with fundamental, technical knowledge of AWS cloud computing, global infrastructure, services, solutions, migration, and security. This course is designed to teach students the fundamental principles of AWS solution architecture design and to introduce the basic skills needed to engage customers in a pre-sales AWS technical opportunity. It is intended to empower learners to make recommendations and informed decisions about AWS cloud solutions based on customer business requirements. Upon successful completion of the accreditation test, you will earn accreditation as an AWS Technical Professional.
@@ -386,7 +382,7 @@ Cloud Architecture Best Practices
     - Design using multiple instances
     - Design using multiple Availability Zones
     - Separate single server into multiple tiered application
-    - For Amazon RDS, use Multi-AZ feature
+    - For Amazon RDS, use the Multi-AZ feature
 
 - Build Security in every layer:
     - Encrypt Data at rest and in transit
@@ -432,9 +428,9 @@ A framework for ensuring infrastructures are:
     - Efficient
     - Sustainable
 
-- Practices Developed though reviewing customers’ architectures on AWS
+- Practices Developed through reviewing customers’ architectures on AWS
 - Systematic approach for evaluating and implementing architectures
-- Well-Architected Tool in the console
+- There is a Well-Architected Tool in the console
 
 The six pillars:
 
@@ -568,10 +564,10 @@ Objection handling best practices
 - Data-driven approach
 - Use case studies
 - Dive deep
-- Have backbone (have confidence on your responses or assure that you will find an answer to them)
+- Have backbone (have confidence on your responses or assure that you will find an answer to their questions)
 - Keep the momentum going
 
-Handling objections = Connect (understand customer objection) -> Condense (understand exactly what is bothering) -> Continue (respond the question with some of the best practices above and continue presentation)
+Handling objections = Connect (understand customer objection) -> Condense (understand exactly what is bothering) -> Continue (respond the question with some of the best practices above and continue the presentation)
 
 Common objection responses
 
@@ -579,7 +575,7 @@ Common objection responses
     - Security at AWS is our top priority
     - Higher security posture than in legacy environments
     - All customers inherit all the benefits of our experience
-    - Validated agains the strictest of third-party assurance frameworks
+    - Validated against the strictest of third-party assurance frameworks
 
 - Cost or cost savings:
     - Reduce total cost of ownership (TCO)
@@ -598,7 +594,7 @@ What NOT to do when meeting a customer:
 - Avoid using acronyms or technical jargon (unless you heard them using them as well).
 - Don’t focus on technology, focus should be customer centered.
 - Do not focus on the short/mid-term.
-- Avoid reading the slides, maintaining eye contact with the customer and no the screen.
+- Avoid reading the slides, maintaining eye contact with the customer and not the screen.
 
 Proof-of-Concept (POC)
 
@@ -610,11 +606,11 @@ POC Fundamentals:
 
 Building a POC:
 
-- Start building only after the customer agrees to move forward with POC
+- Start building only after the customer agrees to move forward with a POC
 - Determine what success looks like (make sure there are clear goals and scope defined for the POC)
 - Include any modifications that show up during the presentations
 - Consult as necessary (consult someone that has more business or technical expertise when needed)
-- Collect the following information:
+- Collect the following information before starting:
     - Networking and security
     - Application code
     - Databases
@@ -653,9 +649,177 @@ Helps APN partners to present your expertise and earn customer trust.
  End of Presenting AWS Solutions to Customers
 ——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-Look Ahead (Implementation and Migration)
+Look Ahead (Migration & Beyond)
+
+Three phase migration process
+
+Assessment:
+
+- Identify your customer’s readiness for operating in the cloud
+- Identify potential business outcome
+
+Readiness and Planning:
+
+- Address gaps in your customer’s readiness that were uncovered in your assessment phase
+- Analyze their environment, create a map of interdependencies
+- Determine migration strategies, such as repost or replatform
+- At this stage , you set up a secure and well-architected multi-account AWS environment (called an AWS Landing Zone)
+
+Migration and Modernization:
+
+- In the migration phase, the focus shifts from the portfolio level to the individual application level
+- Each application is designed, migrated and validated
+- Automatic or manual migration from different source environments, such as physical, virtual or cloud-based to AWS
+- You likely require a one-time migration of a large volume of data to AWS 
+
+Minimum Viable Product (MVP)
+
+A functional product or solution with just enough features to satisfy requirements.
+
+- Don’t scale MVPs
+- MVPs are production level solutions to validate an implementation
+- Avoid Big Bang solutions, start with basic stuff and gather feedback
+- A POC is more like a quick demo of the solution, whereas an MVP is production level
+
+Migration Strategies
+
+Determine the migration path:
+
+- Rehost:
+    - Choose manual or automate path
+        - If manual then you would: Manually install, config and deploy of the app components
+        - If automate, you just gotta use the migration tools
+
+- Replatform or lift, shift and tinker:
+    - Determine new platform for the application, then modify underlying infrastructure to prepare for migration to the cloud, then use the migration tools
+
+- Refactor:
+    - Require many more steps by nature
+        - The application needs to be redesigned for the target architecture and infrastructure
+        - Develop the code for the target architecture
+        - Then a full Application Lifecycle Management (ALM) or a Software Development Lifecycle (SDLC) must be complete
+        - Followed by the integration of the target application
 
 
+Once the strategy is chosen and applied, the applications would:
+
+- Validation: Applications validated on AWS
+- Transition: Then production would be transitioned
+- Production: Finally, full production achieved on AWS
+
+Going to Production:
+
+Best Practices:
+
+- Involve AWS account team (Solutions Architect or Technical Account Manager)
+- Customer-specific regulatory requirements
+- AWS Support level (depends on the customer selection)
+
+It’s good to run a periodic Well Architected Review (using the AWS Well-Architected Tool, it can be performed by APN Partners or the customers themselves), it provides:
+
+- Architectural guidance
+- Continuous review
+- Identify and implement improvements
+
+Modernize to drive growth - Other Ways to Modernize Customer’s Solutions
+
+- Retire expensive legacy solutions
+- Reduce TCO, improve cost optimization
+- Gain agility through automation
+- Free up resources to drive innovation
+
+Containers:
+
+- Package code, configurations, dependencies, and runtime engines into a single object
+- Share an operating system installed on the server
+- Run as resource-isolated processes, ensuring quick, reliable and consistent deployments regardless of environment
+- AWS offers resources and orchestration services that make it easy for you to build and run containerized applications in production 
+
+Use cases:
+
+- Microservices: Provide process isolation, that makes it easy to break apart and run application as independent component (called microservices)
+- Batch processing: Package batch processing and ETL jobs into containers to start jobs quickly and scale them dynamically in response to demand
+- Machine learning: Quickly scale machine learning models for training and inference and run them close to data sources on any platform
+- Hybrid applications: Let customers standardize how code is deployed, making it easy to build workflows applications that run between on-premisses and cloud environment
+- Application migration to the cloud: Easy to package entire applications and move them to the cloud without needing to make any code changes
+- Platform as a service: Used to build platforms that remove the need for developers to mangasse infra and standardize how applications are deployed and managed
+
+Serverless:
+
+Serverless applications don’t require provisioning, maintaining and administering servers for backend components, such as compute, database, storage, stream processing, message queuing, and more.
+
+- AWS provides a set of fully managed services for serverless applications:
+    - AWS Lambda
+    - Lambda@Edge
+    - AWS Fargate
+    - Amazon Simple Storage Service
+    - Amazon Elastic File System
+    - Amazon DynamoDB
+    - Amazon Aurora Serverless
+    - Amazon API Gateway
+    - Amazon SNS
+    - Amazon SQS
+    - AWS AppSync
+    - Amazon EventBridge
+    - AWS Step Functions
+    - Amazon Kinesis
+    - Amazon Athena
+    - Developer Tooling: Various tools and services…
+
+Analytics and Data Lakes:
+
+Data lakes can be used to make it easier to read data and obtain insights. AWS provides the most comprehensive set of services to move, set and analyze your data. 
+
+Data lakes and analytics solutions on AWS:
+
+- Interactive Analytics: Amazon Athena
+- Big Data Processing: Amazon EMR
+- Data Warehousing: Amazon Redshift
+- Real-time Analytics: Amazon Kinesis
+- Operational Analytics: Amazon OpenSearch Service
+- Dashboards and Visualizations: Amazon QuickSight
+- Cataloging and Securing: AWS Lake Formation
+
+ End of Look Ahead (Migration & Beyond)
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+AWS Partner Network (APN)
+
+Some APN benefits:
+- Leverage AWS innovation
+- Access tools and resources
+- Expand addressable market
+
+AWS Technical Professional Learning Path:
+
+Cloud Fundamentals (Recommended Progression):
+
+- AWS Partner: Accreditation
+- AWS Partner: Cloud Economics Accreditation
+- AWS Partner: Cloud Practitioner Essentials
+- AWS Certified Cloud Practitioner 
+- AWS Partners Well-Architected Best Practices (Technical)
+- AWS Certified Solutions Architect - Associate Learning Path
+- AWS Professional Services: Cloud adoption Framework
+- AWS Certified Solutions Architect or AWS Certified Developer
+
+APN Partner Central:
+
+Provides APN Partners with the tools and content they need to grow their businesses on AWS
+
+ End of AWS Partner Network
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+Course Summary:
+
+* The AWS Cloud value proposition
+* Core services and functionality
+* Solving customer business challenges
+* Architectural best practices
+* Presenting solutions
+* Proofs of concept
+* Guiding customers toward modernization
+* APN resources
 
 
 
