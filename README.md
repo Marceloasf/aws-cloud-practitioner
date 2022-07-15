@@ -2,6 +2,17 @@ AWS Partner: Accreditation (Technical)
 
 The AWS Partner: Accreditation (Technical) training provides AWS Partner Network (APN) Partners with fundamental, technical knowledge of AWS cloud computing, global infrastructure, services, solutions, migration, and security. This course is designed to teach students the fundamental principles of AWS solution architecture design and to introduce the basic skills needed to engage customers in a pre-sales AWS technical opportunity. It is intended to empower learners to make recommendations and informed decisions about AWS cloud solutions based on customer business requirements. Upon successful completion of the accreditation test, you will earn accreditation as an AWS Technical Professional.
 
+Course Summary:
+
+* The AWS Cloud value proposition
+* Core services and functionality
+* Solving customer business challenges
+* Architectural best practices
+* Presenting solutions
+* Proofs of concept
+* Guiding customers toward modernization
+* APN resources
+
 Benefits of cloud computing:
 
 Agility: Cloud provides more resources to organizations
@@ -16,17 +27,17 @@ Certain resources are tied to regions
 
 AWS Availability Zones:
 
-All AZs (availability zones) are connected to the same region, but they are separated within the AZ, for example: 
-- AP-SOUTHEAST-1 (singapore region) is divided in 3 datacenters:  
+All AZs (availability zones) are connected to the same region, but they are separated in Datacenters within each AZ, for example: 
+- AP-SOUTHEAST-1 (AZ within Singapore region) is divided in 3 datacenters:  
     - AP-SOUTHEAST-1a, AP-SOUTHEAST-1b and AP-SOUTHEAST-1c
 
 Other AWS global infrastructure:
 
-Local Zone
-Wavelength Zones
-Direct Connect Locations
-Edge Locations
-Regional Edge Caches
+Local Zone - Literally local zones, like inside an industry, city, etc
+Wavelength Zones - 5G zones 
+Direct Connect Locations - Customer internet connects directly to AWS 
+Edge Locations - CloudFlare - Called “EDGE”, but are located in specific centers providing lower latency (for example inside a capital city) - Locations designed to deliver content to end users
+Regional Edge Caches - CloudFlare
 
 ——————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
@@ -56,11 +67,11 @@ Amazon EC2 choices:
 
 Instance Types:
 
-- General Purpose
-- Compute Optimized
-- Memory Optimized
-- Accelerated Computing
-- Storage Optimized 
+- General Purpose - Balanced specs (CPU, RAM, Storage)
+- Compute Optimized - More cpu bound
+- Memory Optimized - More memory bound (RAM)
+- Accelerated Computing - More cores for more processing power (used in IA, machine learning, float number calculations)
+- Storage Optimized - More storage and I/O bound
 
 Each category has different families and each family has different generations (MAC, T, M, A)
 
@@ -81,7 +92,7 @@ Amazon EC2 Auto Scaling group:
 
 - Automatically adjusts resource capacity
 - Define where Amazon EC2 Auto Scaling deploys resources
-- Specify the Amazon VPC and subnets (must select at least 2 subnets across different availability zones)
+- Specify the Amazon VPC (all the virtual network) and subnets (must select at least 2 subnets across different availability zones)
 
 An auto scaling group can have their instances automatically picked.
 
@@ -676,7 +687,7 @@ Minimum Viable Product (MVP)
 
 A functional product or solution with just enough features to satisfy requirements.
 
-- Don’t scale MVPs
+- Don’t scale MVPs to final products
 - MVPs are production level solutions to validate an implementation
 - Avoid Big Bang solutions, start with basic stuff and gather feedback
 - A POC is more like a quick demo of the solution, whereas an MVP is production level
@@ -686,8 +697,8 @@ Migration Strategies
 Determine the migration path:
 
 - Rehost:
-    - Choose manual or automate path
-        - If manual then you would: Manually install, config and deploy of the app components
+    - Choose manual or automate path:
+        - If manual then you would: Manually install, config and deploy the app components
         - If automate, you just gotta use the migration tools
 
 - Replatform or lift, shift and tinker:
@@ -737,7 +748,7 @@ Containers:
 
 Use cases:
 
-- Microservices: Provide process isolation, that makes it easy to break apart and run application as independent component (called microservices)
+- Microservices: Provide process isolation, that makes it easy to break apart and run a application as independent components (called microservices)
 - Batch processing: Package batch processing and ETL jobs into containers to start jobs quickly and scale them dynamically in response to demand
 - Machine learning: Quickly scale machine learning models for training and inference and run them close to data sources on any platform
 - Hybrid applications: Let customers standardize how code is deployed, making it easy to build workflows applications that run between on-premisses and cloud environment
@@ -801,7 +812,15 @@ Cloud Fundamentals (Recommended Progression):
 - AWS Partners Well-Architected Best Practices (Technical)
 - AWS Certified Solutions Architect - Associate Learning Path
 - AWS Professional Services: Cloud adoption Framework
-- AWS Certified Solutions Architect or AWS Certified Developer
+- AWS Certified Solutions Architect then AWS Certified Developer
+
+To become an AWS Partner, there are some steps:
+
+1. Registered
+2. Enrolled
+3. Confirmed
+4. Validated: This one is the most important of them all, because here is where the partner earns the bulk of the benefits
+5. Differentiated
 
 APN Partner Central:
 
@@ -809,17 +828,5 @@ Provides APN Partners with the tools and content they need to grow their busines
 
  End of AWS Partner Network
 ——————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-Course Summary:
-
-* The AWS Cloud value proposition
-* Core services and functionality
-* Solving customer business challenges
-* Architectural best practices
-* Presenting solutions
-* Proofs of concept
-* Guiding customers toward modernization
-* APN resources
-
 
 
