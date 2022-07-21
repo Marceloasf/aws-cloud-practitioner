@@ -41,7 +41,7 @@ Regional Edge Caches - CloudFlare
 
 ———————————————————————————————————————————————
 
-Introduction to AWS Core Technologies
+## Introduction to AWS Core Technologies
 
 AWS Core Technologies - Compute:
 
@@ -319,7 +319,7 @@ Edge Locations
  End of Introduction to AWS Core Technologies
 ———————————————————————————————————————————————
 
-Introduction to solution design
+## Introduction to solution design
 
 AWS Solutions
 
@@ -547,7 +547,7 @@ See some quick start solutions on aws.amazon.com/quickstart
  End of Introduction to Solution Design
 ———————————————————————————————————————————————
 
-Presenting AWS Solutions to Customers
+## Presenting AWS Solutions to Customers
 
 Customer-facing discussions fall into three distinct categories, based upon typical milestones in the sales cycle.
 
@@ -660,7 +660,7 @@ Helps APN partners to present your expertise and earn customer trust.
  End of Presenting AWS Solutions to Customers
 ———————————————————————————————————————————————
 
-Look Ahead (Migration & Beyond)
+## Look Ahead (Migration & Beyond)
 
 Three phase migration process
 
@@ -794,7 +794,7 @@ Data lakes and analytics solutions on AWS:
  End of Look Ahead (Migration & Beyond)
 ———————————————————————————————————————————————
 
-AWS Partner Network (APN)
+## AWS Partner Network (APN)
 
 Some APN benefits:
 - Leverage AWS innovation
