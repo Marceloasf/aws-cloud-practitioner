@@ -13,7 +13,7 @@ In this course, you will explore the concepts of business value, including cost 
     * Introduction to MPA tool
     * Conducting a Cost Savings analysis with MPA
 
-Cloud Economics: Two Primary focus areas
+## Cloud Economics: Two Primary focus areas
 
 Business Value (TCO)
 
@@ -54,7 +54,7 @@ Business agility: Customer can deliver more value to their customers.
 End of Introduction to Business Value
 ———————————————————————————————————————————————
 
-Cost Savings Analysis
+## Cost Savings Analysis
 
 Help a customer compare costs and build a business case for transitioning to AWS. A cost savings analysis calculates the total cost of ownership, acquisition and operating costs for running an end to end traditional IT environment on-premises versus deploying to AWS.
 
@@ -178,7 +178,8 @@ What works:
 * Use realistic on-premises ratios (VM density, servers, racks)
 * Explore on-premises CPU and MEM usage
 * Apply cost benefits of automation (automatic scaling, APIs, AWS Trusted Advisor, Cost Optimization)
- Does not work:
+
+Does not work:
 * Forget power/cooling (compute, storage, network)
 * Forget administration costs (procurement, design, build, operations, network, security)
 * Forget rent/real estate (building depreciation, taxes, shared services staff)
@@ -248,7 +249,7 @@ Migration Portfolio Assessment Tool
 End of Cost Savings
 ———————————————————————————————————————————————
 
-Staff Productivity
+## Staff Productivity
 
 Typical functions:
 
@@ -269,7 +270,7 @@ Almost all staff productivity is improved since on a cloud environment they don�
 End of Staff Productivity
 ———————————————————————————————————————————————
 
-Operational Resilience
+## Operational Resilience
 
 Operational resilience equals availability and security. Availability envolves multiple layers.
 
@@ -364,7 +365,7 @@ How AWS Helps
 End of Operational Resilience
 ———————————————————————————————————————————————
 
-Business Agility
+## Business Agility
 
 It means bringing more value to customers. Letting our customers focus on building new projects, improving and expanding. Responding faster, experimenting more, and delivering results in the same or less amount of time.
 
@@ -388,7 +389,7 @@ Key Performance Indicators (KPIs)
 End of Business Agility
 ———————————————————————————————————————————————
 
-Cloud Financial Management
+## Cloud Financial Management
 
 Customers should pay for what they use and only for what they need to get their business done.
 
@@ -597,8 +598,8 @@ Buying and using some automation tools:
 End of Cloud Financial Management
 ———————————————————————————————————————————————
 
-Migration Portfolio Assessment (MPA)
-MPA is a web application that automates the portfolio analyses process.
+## Migration Portfolio Assessment (MPA)
+### MPA is a web application that automates the portfolio analyses process.
 
 Help customers collect and analyze data. They can use this data to validate their business cases and create migration plans. Customers can also use this data to estimate the level of effort and cost associated with migration. As well as estimate the annual run rates for compute and storage resources on AWS. 
 
