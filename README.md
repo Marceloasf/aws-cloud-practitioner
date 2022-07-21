@@ -7,4 +7,4 @@
 
 ## Certification:
 
-- [AWS Cloud Practitioner Essentionals]
+- [AWS Cloud Practitioner Essentials]
