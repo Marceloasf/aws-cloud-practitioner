@@ -39,7 +39,7 @@ Direct Connect Locations - Customer internet connects directly to AWS
 Edge Locations - CloudFlare - Called “EDGE”, but are located in specific centers providing lower latency (for example inside a capital city) - Locations designed to deliver content to end users
 Regional Edge Caches - CloudFlare
 
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————
 
 Introduction to AWS Core Technologies
 
@@ -317,7 +317,7 @@ Availability Zone
 Edge Locations
 
  End of Introduction to AWS Core Technologies
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————
 
 Introduction to solution design
 
@@ -545,7 +545,7 @@ See some quick start solutions on aws.amazon.com/quickstart
 
 
  End of Introduction to Solution Design
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————
 
 Presenting AWS Solutions to Customers
 
@@ -658,7 +658,7 @@ Helps APN partners to present your expertise and earn customer trust.
 
 
  End of Presenting AWS Solutions to Customers
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————
 
 Look Ahead (Migration & Beyond)
 
@@ -792,7 +792,7 @@ Data lakes and analytics solutions on AWS:
 - Cataloging and Securing: AWS Lake Formation
 
  End of Look Ahead (Migration & Beyond)
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————
 
 AWS Partner Network (APN)
 
@@ -827,6 +827,6 @@ APN Partner Central:
 Provides APN Partners with the tools and content they need to grow their businesses on AWS
 
  End of AWS Partner Network
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————
 
 
