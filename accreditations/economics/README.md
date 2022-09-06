@@ -1,4 +1,4 @@
-# AWS Partner: Cloud Economics (Accreditation) 
+# AWS: Cloud Economics (Accreditation) 
 
 In this course, you will explore the concepts of business value, including cost savings, staff productivity, operational resilience, and business agility. In addition, you will learn about the Migration Portfolio Assessment, or MPA, tool. And finally, you will learn about key elements of cloud financial management. 
 
