@@ -1,10 +1,6 @@
-# AWS Certified Cloud Practitioner
+# AWS Certified Cloud Practitioner - Technical and Economics Annotations
 
 ## Accreditations:
 
-- [AWS Partner: Technical](https://github.com/Marceloasf/aws-cloud-practitioner/tree/master/accreditations/technical)
-- [AWS Partner: Economics](https://github.com/Marceloasf/aws-cloud-practitioner/tree/master/accreditations/economics)
-
-## Certification:
-
-- [AWS Cloud Practitioner Essentials]
+- [AWS: Technical](https://github.com/Marceloasf/aws-cloud-practitioner/tree/master/accreditations/technical)
+- [AWS: Economics](https://github.com/Marceloasf/aws-cloud-practitioner/tree/master/accreditations/economics)
